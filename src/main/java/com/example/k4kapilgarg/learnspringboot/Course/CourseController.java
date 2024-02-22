@@ -12,9 +12,8 @@ public class CourseController {
     @RequestMapping("/courses")
     public List<Course> getCourses(){
         return Arrays.asList(
-                new Course(1, "DSA", "Scaler"),
-                        new Course(1, "LLD", "Scaler - 2")
-
+            new Course(1, "DSA", "Scaler"),
+            new Course(1, "LLD", "Scaler - 2")
         );
     }
 }
